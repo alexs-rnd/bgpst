@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.dynamicfiles.projects.gradle.plugins</groupId>
+  <artifactId>javafx-gradle-plugin</artifactId>
+  <version>8.8.2</version>
+  <name>javafx-gradle-plugin</name>
+  <description>The JavaFX Gradle Plugin provides a way to to assemble distributable bundles for JavaFX applications from within Gradle. It provides a wrapper around the JavaFX packaging tools which are provided as part of the JavaFX installation.</description>
+  <url>https://github.com/FibreFoX/javafx-gradle-plugin</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>FibreFoX</id>
+      <name>Danny Althoff</name>
+      <email>fibrefox@dynamicfiles.de</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/FibreFoX/javafx-gradle-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:FibreFoX/javafx-gradle-plugin.git</developerConnection>
+    <url>https://github.com/FibreFoX/javafx-gradle-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-all</artifactId>
+      <version>5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

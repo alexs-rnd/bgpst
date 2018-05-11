@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.vaadin.external.flute</groupId>
+    <artifactId>flute</artifactId>
+    <version>1.3.0.gg2</version>
+    <name>Flute</name>
+    <organization>
+        <name>W3C</name>
+        <url>http://www.w3.org</url>
+    </organization>
+    <url>http://www.w3.org</url>
+    <description>
+      Flute implements The Simple API for CSS (SAC) using JavaCC.
+    </description>
+    <licenses>
+        <license>
+            <name>W3C Software Copyright Notice and License</name>
+            <distribution>repo</distribution>
+            <url>http://www.w3.org/Consortium/Legal/copyright-software-19980720</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:http:http://www.w3.org/</connection>
+        <developerConnection>scm:http:http://www.w3.org/</developerConnection>
+        <url>http://www.w3.org/</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>id</id>
+            <name>Flute Dev</name>
+            <email>flutedev</email>
+            <organization>W3C</organization>
+        </developer>
+    </developers>
+    <distributionManagement>
+        <repository>
+            <id>vaadin-releases</id>
+            <name>Vaadin release repository</name>
+            <url>http://oss.sonatype.org/content/repositories/vaadin-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>vaadin-snapshots</id>
+            <name>Vaadin snapshot repository</name>
+            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>vaadin-snapshots</id>
+            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>vaadin-releases</id>
+            <url>http://oss.sonatype.org/content/repositories/vaadin-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>
